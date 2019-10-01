@@ -106,61 +106,23 @@ h2 {
 
 }
 
-.explorebox2 {
+
+#glanceheader{
+    text-align: center;
+}
+
+#glancecontent{
+    display: inline-block;
+    height: 400px;
+    width: 100%;
+    
+}
+
+#glancebox{
+    display: inline-block;
+}
+
+#glanceimg{
     height: 300px;
     width: 24.5%;
-    display: inline-block;
 }
-
-#carosel{
-background-image: url(images/carosel\ money.jpg);
-background-size: cover;
-background-position: center;
-
-}
-
-#grad{
-    background-image: url(images/grad.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-#sports{
-    background-image: url(images/sports.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-#puzzle{
-    background-image: url(images/puzzle.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.description{
-
-    height: 100px;
-    width: 24.5%;
-}
-
-h3{
-    display: inline-block;
-    font-size: 30px;
-    font-family:  "PT Sans Narrow", sans-serif; 
-    color: red;
-    text-align: center;
-    padding: 30px 140px;
-
-}
-
-h4{
-display: inline-block;
-font-size: 15px;
-padding: 3px 3px;
-text-align: end;
-}
-
-
-
-
-
