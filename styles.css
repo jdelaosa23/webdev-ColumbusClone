@@ -11,13 +11,15 @@ nav{
 ul {
     list-style-type: none;
     display: inline;
-    padding: 5px 0;
+    padding: 20px 0;
     color:white;
+    font-family: 'PT Sans Narrow' , sans-serif;
+    font-size: 9pt;
     
 }
 
 #nav {
-height: 14px;
+height: 15px;
 width: 100%;
 }
 
@@ -26,103 +28,152 @@ display:inline-block;
 font-size: 19.75px;
 font-weight: bold;
 color: white;
-padding: 5px 10px;
-font-family: 'Open Sans,' sans-serif;
+padding: 5px 27px;
+font-family: 'PT Sans Narrow,' sans-serif;
 text-transform: uppercase;
+font-size: 9pt;
 }
 
-#bluenav {
+.bluenavlogo {
     background-color: #005983;
+    height: 15px;
+    width: 50px;
+
 }
 
 .navlogo{ 
-    height: 14px;
-    width: 50px;
-    
+    height: 15px;
+    width: 70px;
 }
 
-#herosection {
-width: 100vw;
-height: 100vh;
+
+
+#HeroSection {
+width: 100%;
+height: 90vh;
 background-image: url(images/graduation.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 }
 
+img{
+    vertical-align: middle;
+}
+
 #explorecchs {
-height: 400px;
-width: 100vw;
+height: 500px;
+width: 100%;
 background-color: #10243b;
 }
 
 #exploreheader{
 height: 100px;
-width: 100vw;
+width: 100%;
 text-align: center;
 color: white;
+font-family: 'PT Sans Narrow', sans-serif;
+vertical-align: middle;
 }
 
 #exploresection{
-height: 300px;
-width: 100vw;
-background-color: #10243b;
+height: 400px;
+width: 100%;
 }
 
-.explorebox{
-    height: 300px;
+.exploreblock{
+    height: 400px;
     width: 24.5%;
-    background-color: yellow;
     display: inline-block;
 }
 
 #patriotplaza{
     background-image: url(images/patriots\ plaza.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: middle;
 }
 
 #ccnn{
     background-image: url(images/ccnn.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: middle;
 }
 
-#college{
+#colleges{
     background-image: url(images/college.png);
     background-size: cover;
-    background-position: center;
+    background-position: middle;
 }
 
 #ccnnlive{
     background-image: url(images/ccnn\ live.png);
     background-size: cover;
-    background-position: center;
+    background-position: middle;
 }
 
-h2 {
+#cchsGlance{
+    text-transform: uppercase;
+    color:#00344C;
+    padding: 20px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    vertical-align: middle;
     text-align: center;
-    font-size: 48px;
-    font-family: "PT Sans Narrow", sans-serif; 
-
+    margin-bottom: 0px;
 }
 
+.glanceblock{
+    height: 400px;
+    width: 24.5%;
+    display: inline-block;
+}
+
+.glanceheader{
+    color: red;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.glancedescription{
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+    font-size: 16px;
+}
 
 #glanceheader{
     text-align: center;
 }
-
-#glancecontent{
-    display: inline-block;
-    height: 400px;
-    width: 100%;
-    
+#coursesoffered{
+    vertical-align: middle;
+    text-align: center;
+    background-color: #10243B;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    color: white;
 }
 
-#glancebox{
-    display: inline-block;
+#coursesoffered{
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    box-sizing: content-box;
+    width: 80%;
+    margin: auto;
 }
 
-#glanceimg{
-    height: 300px;
-    width: 24.5%;
+#graduateddiv{
+    height: 5px;
+    width:100%;
+    color: black;
+}
+#graduateheader{
+    text-align: center;
+    font-size: 12px;
+    text-transform: none;
+    color: #00344C;
+    margin-bottom: 30px;
+    font-weight: bold;
 }
