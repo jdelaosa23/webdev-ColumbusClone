@@ -82,7 +82,7 @@ width: 100%;
 
 .exploreblock{
     height: 400px;
-    width: 24.5%;
+    width: 24.6%;
     display: inline-block;
 }
 
@@ -177,3 +177,74 @@ width: 100%;
     margin-bottom: 30px;
     font-weight: bold;
 }
+
+#footernav{
+    padding: 12.5px 25px 12.5px 0;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #0088cc;
+    background-color: #10243B;
+}
+a {
+    text-transform: uppercase;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #0088cc;
+    background-color: #10243B;
+    padding: 12.5px 25px 12.5px 0;
+}
+#leftfoot{
+    display: inline-block;
+}
+#rightfoot{
+    display: inline-block;
+    margin-left: 20%;
+}
+#realfooter{
+    background-color: #333333;
+    width: 100%;
+    height: 400px;
+}
+#cchsaddress{
+    height: 200px;
+    width: 100%;
+    display: inline-block;
+
+}
+.addressbox{
+    height: 100px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: .05em;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#sitemap{
+    margin-left: 50%;
+}
+#cchsfinalfooter{
+    height: 100px;
+    width: 100%;
+    display: inline-block;
+
+}
+.finalfooterbox{
+    height: 100px;
+    width: 50%;
+    display: inline-block;
+    margin-bottom: 50px;
+    opacity: .5;
+    font-size: 11px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+#finalfooterimage{
+    margin-left: 30%;
+    vertical-align: top
+}
+
+
